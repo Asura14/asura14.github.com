@@ -183,7 +183,8 @@ section.success {
     color: #fff;
     background: #{{ site.color.primary }};
 }
-a.success {
+
+section.success.a {
     outline: 0;
     color: white;
 }
