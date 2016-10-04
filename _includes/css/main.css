@@ -187,6 +187,7 @@ section.success {
 section.success a {
     outline: 0;
     color: white;
+    font-weight: bold;
 }
 
 @media(max-width:767px) {
