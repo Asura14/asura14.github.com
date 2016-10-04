@@ -183,6 +183,14 @@ section.success {
     color: #fff;
     background: #{{ site.color.primary }};
 }
+section.success.aa,
+section.success.a:hover,
+section.success.a:focus,
+section.success.a:active,
+section.success.a.active {
+    outline: 0;
+    color: black;
+}
 
 @media(max-width:767px) {
     section {
