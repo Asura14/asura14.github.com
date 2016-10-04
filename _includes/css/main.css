@@ -183,13 +183,13 @@ section.success {
     color: #fff;
     background: #{{ site.color.primary }};
 }
-section.success.aa,
-section.success.a:hover,
-section.success.a:focus,
-section.success.a:active,
-section.success.a.active {
+.a.success,
+.a.success:hover,
+.a.success:focus,
+a:active.success,
+a.active.success {
     outline: 0;
-    color: black;
+    color: white;
 }
 
 @media(max-width:767px) {
