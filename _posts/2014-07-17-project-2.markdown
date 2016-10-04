@@ -5,8 +5,8 @@ date: 2014-07-17
 img: cake.png
 alt: image-alt
 project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+client: EcoSense
+category: Mobile Development
+description: <a href="https://github.com/Asura14/EcoSense-Android">Econsense</a> is a social platform oriented towards environmental issues, with the intent of alarming people and fixing these same projects. The app works alongside the website using it's API to post location based posts, view your wall and read other posts. The main porpuse of the app is the location based post called "Issue" that shares your current location, allows you to upload a photo and a small text aleting for a specific ecological issue in the area.
 
 ---
