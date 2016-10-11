@@ -6,7 +6,7 @@ date: 2015-07-17
 img: ecosense.png
 alt: image-alt
 project-date: April 2015
-client: EcoSense
+client: FEUP
 category: Mobile Development
 description: <a href="https://github.com/Asura14/EcoSense-Android">Econsense</a> is a social platform oriented towards environmental issues, with the intent of alarming people and fixing these same projects. The app works alongside the website using it's API to post location based posts, view your wall and read other posts. The main porpuse of the app is the location based post called "Issue" that shares your current location, allows you to upload a photo and a small text aleting for a specific ecological issue in the area.
 
