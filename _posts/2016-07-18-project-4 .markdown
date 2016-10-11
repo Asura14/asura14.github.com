@@ -1,0 +1,13 @@
+---
+title: Walk Me Through
+layout: default
+modal-id: 1
+date: 2016-07-18
+img: walk.png
+alt: image-alt
+project-date: April 2016
+client: FEUP
+category: Web Development
+description: Walk Me Through<a href="https://github.com/filipaivars/lbaw41">'Walk Me Through'</a>  is a Q&A Hub oriented towards videogames where users can register and ask/answer questions. The Web platform is no longer active since it was only for a specific subject.
+
+---
