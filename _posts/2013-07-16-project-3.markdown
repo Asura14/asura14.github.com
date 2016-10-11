@@ -2,7 +2,7 @@
 title: BibTeX to HTML
 layout: default
 modal-id: 3
-date: 2016-07-16
+date: 2013-07-16
 img: bib.png
 alt: image-alt
 client: FEUP
