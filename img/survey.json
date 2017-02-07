@@ -4,147 +4,77 @@
   "releaseDate": "2017-01-25T00:00:00.000Z",
   "intro": "Muito Bom Dia, sou entrevistador da OPT...",
   "outro": "Obrigado pela sua colaboração!",
-  "question1": {
-    "id": 1,
-    "title": "Nos meses de Dezembro/Janeiro respondeu já a um inquérito à mobilidade?",
-    "body": {
-      "type": "oneof",
-      "answer1": {
-        "title": "Sim",
-        "value": "SIM",
-        "jump": null
-      },
-      "answer2": {
-        "title": "Não",
-        "value": "NAO",
-        "jump": -1
-      },
-      "": {}
-    }
-  },
-  "question2": {
-    "id": 2,
-    "title": "Residência: Rua",
-    "body": {
-      "type": "fillstring",
-      "answer": {
-        "jump": null
+  "questions": {
+    "question1": {
+      "id": 1,
+      "title": "Nos meses de Dezembro/Janeiro respondeu já a um inquérito à mobilidade?",
+      "body": {
+        "type": "oneof",
+        "answer1": {
+          "title": "Sim",
+          "value": "SIM",
+          "jump": null
+        },
+        "answer2": {
+          "title": "Não",
+          "value": "NAO",
+          "jump": -1
+        },
+        "": {}
       }
-    }
-  },
-  "question3": {
-    "id": 3,
-    "title": "Qual a sua atividade profissional?",
-    "body": {
-      "type": "atleast",
-      "answer1": {
-        "title": "trabalhador ativo",
-        "jump": null
-      },
-      "answer2": {
-        "title": "estudante",
-        "jump": -1
-      },
-      "answer3": {
-        "title": "desempregado",
-        "jump": null
+    },
+    "question2": {
+      "id": 2,
+      "title": "Residência: Rua",
+      "body": {
+        "type": "fillstring",
+        "answer": {
+          "jump": null
+        }
       }
-    }
-  },
-  "question4": {
-    "id": 3,
-    "title": "Qual foi o motivo desta deslocação?",
-    "body": {
-      "type": "multiple",
-      "answer1": {
-        "title": "PARA O TRABALHO",
-        "jump": null
-      },
-      "answer2": {
-        "title": "PARA A ESCOLA",
-        "jump": null
-      },
-      "answer3": {
-        "title": "COMPRAS",
-        "jump": null
-      },
-      "answer4": {
-        "title": "OUTRA",
-        "jump": null
+    },
+    "": {},
+    "question3": {
+      "id": 3,
+      "title": "Qual a sua atividade profissional?",
+      "body": {
+        "type": "atleast",
+        "answer1": {
+          "title": "trabalhador ativo",
+          "jump": null
+        },
+        "answer2": {
+          "title": "estudante",
+          "jump": -1
+        },
+        "answer3": {
+          "title": "desempregado",
+          "jump": null
+        }
+      }
+    },
+    "question4": {
+      "id": 3,
+      "title": "Qual foi o motivo desta deslocação?",
+      "body": {
+        "type": "multiple",
+        "answer1": {
+          "title": "PARA O TRABALHO",
+          "jump": null
+        },
+        "answer2": {
+          "title": "PARA A ESCOLA",
+          "jump": null
+        },
+        "answer3": {
+          "title": "COMPRAS",
+          "jump": null
+        },
+        "answer4": {
+          "title": "OUTRA",
+          "jump": null
+        }
       }
     }
   }
 }
-
-/* MODEL DEFINITION
-
-title = Inquérito à Mobilidade dos residentes do Alentejo Central
-version n = 1.0
-releaseDate d = 2017-01-25
-intro s = Muito Bom Dia, sou entrevistador da OPT...
-outro s = Obrigado pela sua colaboração!
-
-question1
-  id number = 1
-  title s = Nos meses de Dezembro/Janeiro respondeu já a um inquérito à mobilidade?
-  body
-    type s = oneof
-    answer1
-      title s = Sim
-      value s = SIM
-      jump number = null
-    answer2
-      title s = Não
-      value s = NAO
-      jump number = -1
-    
-question2
-  id number = 2
-  title s = Residência: Rua
-  body
-    type s = fillstring
-    answer
-      jump number = null
-
-question3
-  id number = 3
-  title s = Qual a sua atividade profissional?
-  body
-    type s = atleast
-    answer1
-      title s = trabalhador ativo
-      jump number = null
-    answer2
-      title s = estudante
-      jump number = -1
-    answer3
-      title s = desempregado
-      jump number = null
-
-question4
-  id number = 3
-  title s = Qual foi o motivo desta deslocação?
-  body
-    type s = multiple
-    answer1
-      title s = PARA O TRABALHO
-      jump number = null
-    answer2
-      title s = PARA A ESCOLA
-      jump number = null
-    answer3
-      title s = COMPRAS
-      jump number = null
-    answer4
-      title s = OUTRA
-      jump number = null
-
-question2
-  id number = 2
-  title s = Quantas bicicletas há no seu agregado?
-  body
-    type s = fillint
-    answer
-      jump number = null
-
-*/
