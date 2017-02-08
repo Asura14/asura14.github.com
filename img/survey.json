@@ -12,15 +12,12 @@
         "type": "oneof",
         "answer1": {
           "title": "Sim",
-          "value": "SIM",
           "jump": null
         },
         "answer2": {
           "title": "Não",
-          "value": "NAO",
           "jump": -1
-        },
-        "": {}
+        }
       }
     },
     "question2": {
@@ -33,7 +30,6 @@
         }
       }
     },
-    "": {},
     "question3": {
       "id": 3,
       "title": "Qual a sua atividade profissional?",
@@ -72,6 +68,16 @@
         },
         "answer4": {
           "title": "OUTRA",
+          "jump": null
+        }
+      }
+    },
+    "question5": {
+      "id": 5,
+      "title": "Quantas pessoas há no seu agregado?",
+      "body": {
+        "type": "fillint",
+        "answer": {
           "jump": null
         }
       }
