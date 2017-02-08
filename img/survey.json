@@ -12,7 +12,7 @@
         "type": "oneof",
         "answer1": {
           "title": "Sim",
-          "jump": null
+          "jump": 0
         },
         "answer2": {
           "title": "Não",
@@ -26,7 +26,7 @@
       "body": {
         "type": "fillstring",
         "answer": {
-          "jump": null
+          "jump": 0
         }
       }
     },
@@ -37,7 +37,7 @@
         "type": "atleast",
         "answer1": {
           "title": "trabalhador ativo",
-          "jump": null
+          "jump": 0
         },
         "answer2": {
           "title": "estudante",
@@ -45,7 +45,7 @@
         },
         "answer3": {
           "title": "desempregado",
-          "jump": null
+          "jump": 0
         }
       }
     },
@@ -56,19 +56,19 @@
         "type": "multiple",
         "answer1": {
           "title": "PARA O TRABALHO",
-          "jump": null
+          "jump": 0
         },
         "answer2": {
           "title": "PARA A ESCOLA",
-          "jump": null
+          "jump": 0
         },
         "answer3": {
           "title": "COMPRAS",
-          "jump": null
+          "jump": 0
         },
         "answer4": {
           "title": "OUTRA",
-          "jump": null
+          "jump": 0
         }
       }
     },
@@ -78,7 +78,7 @@
       "body": {
         "type": "fillint",
         "answer": {
-          "jump": null
+          "jump": 0
         }
       }
     }
