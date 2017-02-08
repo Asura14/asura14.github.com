@@ -26,6 +26,7 @@
       "body": {
         "type": "fillstring",
         "answer": {
+          "title": "Inserir rua",
           "jump": 0
         }
       }
@@ -78,6 +79,7 @@
       "body": {
         "type": "fillint",
         "answer": {
+          "title": "Inserir número",
           "jump": 0
         }
       }
