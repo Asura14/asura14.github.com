@@ -12,11 +12,11 @@
         "type": "oneof",
         "answer1": {
           "title": "Sim",
-          "jump": 0
+          "jump": -1
         },
         "answer2": {
           "title": "Não",
-          "jump": -1
+          "jump": 0
         }
       }
     },
