@@ -37,15 +37,15 @@
       "body": {
         "type": "oneof",
         "answer1": {
-          "title": "trabalhador ativo",
+          "title": "Trabalhador ativo",
           "jump": 0
         },
         "answer2": {
-          "title": "estudante",
+          "title": "Estudante",
           "jump": -1
         },
         "answer3": {
-          "title": "desempregado",
+          "title": "Desempregado",
           "jump": 0
         }
       }
