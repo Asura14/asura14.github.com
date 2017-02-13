@@ -35,7 +35,7 @@
       "id": 3,
       "title": "Qual a sua atividade profissional?",
       "body": {
-        "type": "atleast",
+        "type": "oneof",
         "answer1": {
           "title": "trabalhador ativo",
           "jump": 0
@@ -54,7 +54,7 @@
       "id": 3,
       "title": "Qual foi o motivo desta deslocação?",
       "body": {
-        "type": "multiple",
+        "type": "oneof",
         "answer1": {
           "title": "PARA O TRABALHO",
           "jump": 0
@@ -80,6 +80,33 @@
         "type": "fillint",
         "answer": {
           "title": "Inserir número",
+          "jump": 0
+        }
+      }
+    },
+    "question6": {
+      "id": 6,
+      "title": "Qual(quais) o(s) seu(s) meio(s) de deslocação?",
+      "body": {
+        "type": "atleast",
+        "answer1": {
+          "title": "A pé",
+          "jump": 0
+        },
+        "answer2": {
+          "title": "Bicicleta",
+          "jump": 0
+        },
+        "answer3": {
+          "title": "Automóvel / Mota",
+          "jump": 0
+        },
+        "answer4": {
+          "title": "Transporte publico",
+          "jump": 0
+        },
+        "answer3": {
+          "title": "Não sabe, Não responde",
           "jump": 0
         }
       }
