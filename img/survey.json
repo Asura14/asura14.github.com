@@ -83,29 +83,6 @@
           "jump": 0
         }
       }
-    },
-    "question6": {
-      "id": 6,
-      "title": "Qual(quais) o(s) seu(s) meio(s) de deslocação?",
-      "body": {
-        "type": "atleast",
-        "answer1": {
-          "title": "A pé",
-          "jump": 0
-        },
-        "answer2": {
-          "title": "Bicicleta",
-          "jump": 0
-        },
-        "answer3": {
-          "title": "Automóvel/mota",
-          "jump": 0
-        },
-        "answer4": {
-          "title": "Não responde",
-          "jump": 0
-        }
-      }
     }
   }
 }
