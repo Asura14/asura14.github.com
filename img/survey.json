@@ -2,8 +2,8 @@
   "title": "Inquérito à Mobilidade dos residentes do Alentejo Central",
   "version": 1,
   "releaseDate": "2017",
-  "intro": "Muito Bom Dia / Boa Tarde. Sou entrevistador da OPT e estamos a fazer um estudo para o - Plano de Ação de Mobilidade. Urbana Sustentável do Alentejo Central sobre a mobilidade da população que aqui reside. Nesse sentido gostaríamos de contar com a sua melhor colaboração, pedindo-lhe para responder a algumas perguntas sobre a Mobilidade. Obrigado (a)",
-  "outro": "Chegou ao fim do inquérito. Obrigado pela sua colaboração!",
+  "intro": "Muito Bom Dia, sou entrevistador da OPT...",
+  "outro": "Obrigado pela sua colaboração!",
   "questions": {
     "question1": {
       "id": 1,
@@ -12,11 +12,11 @@
         "type": "oneof",
         "answer1": {
           "title": "Sim",
-          "jump": -1
+          "jump": 0
         },
         "answer2": {
           "title": "Não",
-          "jump": 0
+          "jump": -1
         }
       }
     },
@@ -35,7 +35,7 @@
       "id": 3,
       "title": "Qual a sua atividade profissional?",
       "body": {
-        "type": "oneof",
+        "type": "atleast",
         "answer1": {
           "title": "trabalhador ativo",
           "jump": 0
@@ -54,7 +54,7 @@
       "id": 3,
       "title": "Qual foi o motivo desta deslocação?",
       "body": {
-        "type": "oneof",
+        "type": "multiple",
         "answer1": {
           "title": "PARA O TRABALHO",
           "jump": 0
@@ -84,7 +84,7 @@
         }
       }
     },
-    "question6": {
+    "question": {
       "id": 6,
       "title": "Qual(quais) o(s) seu(s) meio(s) de deslocação?",
       "body": {
@@ -98,15 +98,11 @@
           "jump": 0
         },
         "answer3": {
-          "title": "Automóvel / Mota",
+          "title": "Automóvel/mota",
           "jump": 0
         },
         "answer4": {
-          "title": "Transporte publico",
-          "jump": 0
-        },
-        "answer3": {
-          "title": "Não sabe, Não responde",
+          "title": "Não responde",
           "jump": 0
         }
       }
