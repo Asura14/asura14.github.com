@@ -5,7 +5,7 @@
   "intro": "Muito Bom Dia / Boa Tarde. Sou entrevistador da OPT e estamos a fazer um estudo para o - Plano de Ação de Mobilidade. Urbana Sustentável do Alentejo Central sobre a mobilidade da população que aqui reside. Nesse sentido gostaríamos de contar com a sua melhor colaboração, pedindo-lhe para responder a algumas perguntas sobre a Mobilidade. Obrigado (a)",
   "outro": "Chegou ao fim do inquérito. Obrigado pela sua colaboração!",
   "questions": {
-    "question1": {
+    "question": {
       "id": 1,
       "title": "Nos meses de Dezembro/Janeiro respondeu já a um inquérito à mobilidade?",
       "body": {
