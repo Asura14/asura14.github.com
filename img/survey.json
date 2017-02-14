@@ -30,9 +30,32 @@
           "jump": 0
         }
       }
+    }, 
+    "question": {
+      "id": 3,
+      "title": "Residencia: Freguesia",
+      "body": {
+        "type": "dropdown",
+        "answer1": {
+          "title": "Aveiro",
+          "jump": 0
+        },
+        "answer2": {
+          "title": "Beja",
+          "jump": 0
+        },
+        "answer3": {
+          "title": "Braga",
+          "jump": 0
+        },
+        "answer4": {
+          "title": "Bragança",
+          "jump": 0
+        }
+      }
     },
     "question3": {
-      "id": 3,
+      "id": 4,
       "title": "Qual a sua atividade profissional?",
       "body": {
         "type": "oneof",
@@ -51,7 +74,7 @@
       }
     },
     "question4": {
-      "id": 3,
+      "id": 5,
       "title": "Qual foi o motivo desta deslocação?",
       "body": {
         "type": "oneof",
@@ -74,7 +97,7 @@
       }
     },
     "question5": {
-      "id": 5,
+      "id": 6,
       "title": "Quantas pessoas há no seu agregado?",
       "body": {
         "type": "fillint",
@@ -85,7 +108,7 @@
       }
     },
     "question6": {
-      "id": 6,
+      "id": 7,
       "title": "Qual(quais) o(s) seu(s) meio(s) de deslocação?",
       "body": {
         "type": "atleast",
