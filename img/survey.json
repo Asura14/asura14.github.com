@@ -51,6 +51,30 @@
         "answer4": {
           "title": "Bragança",
           "jump": 0
+        },
+        "answer5": {
+          "title": "Castelo Branco",
+          "jump": 0
+        },
+        "answer6": {
+          "title": "Coimbra",
+          "jump": 0
+        },
+        "answer7": {
+          "title": "Évora",
+          "jump": 0
+        },
+        "answer8": {
+          "title": "Faro",
+          "jump": 0
+        },
+        "answer9": {
+          "title": "Guarda",
+          "jump": 0
+        },
+        "answer10": {
+          "title": "Leiria",
+          "jump": 0
         }
       }
     },
