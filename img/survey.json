@@ -75,6 +75,38 @@
         "answer10": {
           "title": "Leiria",
           "jump": 0
+        },
+        "answer11": {
+          "title": "Lisboa",
+          "jump": 0
+        },
+        "answer12": {
+          "title": "Portalegre",
+          "jump": 0
+        },
+        "answer13": {
+          "title": "Porto",
+          "jump": 0
+        },
+        "answer14": {
+          "title": "Santarém",
+          "jump": 0
+        },
+        "answer15": {
+          "title": "Setúbal",
+          "jump": 0
+        },
+        "answer16": {
+          "title": "Viana do Castelo",
+          "jump": 0
+        },
+        "answer17": {
+          "title": "Vila Real",
+          "jump": 0
+        },
+        "answer18": {
+          "title": "Viseu",
+          "jump": 0
         }
       }
     },
