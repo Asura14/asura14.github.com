@@ -1,0 +1,204 @@
+{
+  "title": "Inquérito à Mobilidade dos residentes do Alentejo Central",
+  "version": 1,
+  "releaseDate": "2017",
+  "intro": "Muito Bom Dia / Boa Tarde. Sou entrevistador da OPT e estamos a fazer um estudo para o - Plano de Ação de Mobilidade. Urbana Sustentável do Alentejo Central sobre a mobilidade da população que aqui reside. Nesse sentido gostaríamos de contar com a sua melhor colaboração, pedindo-lhe para responder a algumas perguntas sobre a Mobilidade. Obrigado (a)",
+  "outro": "Chegou ao fim do inquérito. Obrigado pela sua colaboração!",
+  "questions": [
+    {
+      "id": 1,
+      "title": "Nos meses de Dezembro/Janeiro respondeu já a um inquérito à mobilidade?",
+      "body": {
+        "type": "oneof",
+        "answers": [
+          {
+            "title": "Não",
+            "jump": 0
+          },
+          {
+            "title": "Sim",
+            "jump": -1
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "title": "Residência: Rua",
+      "body": {
+        "type": "fillstring",
+        "answers": [
+          {
+            "title": "Inserir rua",
+            "jump": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "title": "Residencia: Freguesia",
+      "body": {
+        "type": "dropdown",
+        "answers": [
+          {
+            "title": "Aveiro",
+            "jump": 0
+          },
+          {
+            "title": "Braga",
+            "jump": 0
+          },
+          {
+            "title": "Bragança",
+            "jump": 0
+          },
+          {
+            "title": "Castelo Branco",
+            "jump": 0
+          },
+          {
+            "title": "Coimbra",
+            "jump": 0
+          },
+          {
+            "title": "Évora",
+            "jump": 0
+          },
+          {
+            "title": "Faro",
+            "jump": 0
+          },
+          {
+            "title": "Guarda",
+            "jump": 0
+          },
+          {
+            "title": "Leiria",
+            "jump": 0
+          },
+          {
+            "title": "Lisboa",
+            "jump": 0
+          },
+          {
+            "title": "Portalegre",
+            "jump": 0
+          },
+          {
+            "title": "Porto",
+            "jump": 0
+          },
+          {
+            "title": "Santarém",
+            "jump": 0
+          },
+          {
+            "title": "Setúbal",
+            "jump": 0
+          },
+          {
+            "title": "Viana do Castelo",
+            "jump": 0
+          },
+          {
+            "title": "Vila Real",
+            "jump": 0
+          },
+          {
+            "title": "Viseu",
+            "jump": 0
+          },
+          {
+            "title": "Beja",
+            "jump": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "title": "Qual a sua atividade profissional?",
+      "body": {
+        "type": "oneof",
+        "answers": [
+          {
+            "title": "Desempregado",
+            "jump": 6
+          },
+          {
+            "title": "Estudante",
+            "jump": -1
+          },
+          {
+            "title": "Trabalhador ativo",
+            "jump": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "title": "Qual(quais) o(s) seu(s) meio(s) de deslocação?",
+      "body": {
+        "type": "atleast",
+        "answers": [
+          {
+            "title": "Bicicleta",
+            "jump": 0
+          },
+          {
+            "title": "Automóvel/mota",
+            "jump": 0
+          },
+          {
+            "title": "Não responde",
+            "jump": 0
+          },
+          {
+            "title": "A pé",
+            "jump": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "title": "Qual foi o motivo desta deslocação?",
+      "body": {
+        "type": "oneof",
+        "answers": [
+          {
+            "title": "PARA A ESCOLA",
+            "jump": 0
+          },
+          {
+            "title": "COMPRAS",
+            "jump": 0
+          },
+          {
+            "title": "OUTRA",
+            "jump": 0
+          },
+          {
+            "title": "PARA O TRABALHO",
+            "jump": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "title": "Quantas pessoas há no seu agregado?",
+      "body": {
+        "type": "fillint",
+        "answers": [
+          {
+            "title": "Inserir número",
+            "jump": 0
+          }
+        ]
+      }
+    }
+  ]
+}
