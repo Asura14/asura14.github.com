@@ -1,188 +1,188 @@
 {
-  "title": "Inquérito à Mobilidade dos residentes do Alentejo Central",
-  "version": 1,
-  "releaseDate": "2017",
-  "intro": "Muito Bom Dia / Boa Tarde. Sou entrevistador da OPT e estamos a fazer um estudo para o - Plano de Ação de Mobilidade. Urbana Sustentável do Alentejo Central sobre a mobilidade da população que aqui reside. Nesse sentido gostaríamos de contar com a sua melhor colaboração, pedindo-lhe para responder a algumas perguntas sobre a Mobilidade. Obrigado (a)",
-  "outro": "Chegou ao fim do inquérito. Obrigado pela sua colaboração!",
-  "questions": [
+  "Title": "Inquérito à Mobilidade dos residentes do Alentejo Central",
+  "Version": 1,
+  "ReleaseDate": "2017",
+  "Intro": "Muito Bom Dia / Boa Tarde. Sou entrevistador da OPT e estamos a fazer um estudo para o - Plano de Ação de Mobilidade. Urbana Sustentável do Alentejo Central sobre a mobilidade da população que aqui reside. Nesse sentido gostaríamos de contar com a sua melhor colaboração, pedindo-lhe para responder a algumas perguntas sobre a Mobilidade. Obrigado (a)",
+  "Outro": "Chegou ao fim do inquérito. Obrigado pela sua colaboração!",
+  "Questions": [
     {
-      "id": 1,
-      "title": "Nos meses de Dezembro/Janeiro respondeu já a um inquérito à mobilidade?",
-      "type": "oneof",
-      "answers": [
+      "Id": 1,
+      "Title": "Nos meses de Dezembro/Janeiro respondeu já a um inquérito à mobilidade?",
+      "Type": "oneof",
+      "Answers": [
         {
-          "title": "Não",
-          "jump": 0
+          "Title": "Não",
+          "Jump": 0
         },
         {
-          "title": "Sim",
-          "jump": -1
+          "Title": "Sim",
+          "Jump": -1
         }
       ]
     },
     {
-      "id": 2,
-      "title": "Residência: Rua",
-      "type": "fillstring",
-      "answers": [
+      "Id": 2,
+      "Title": "Residência: Rua",
+      "Type": "fillstring",
+      "Answers": [
         {
-          "title": "Inserir rua",
-          "jump": 0
+          "Title": "Inserir rua",
+          "Jump": 0
         }
       ]
     },
     {
-      "id": 3,
-      "title": "Residencia: Freguesia",
-      "type": "dropdown",
-      "answers": [
+      "Id": 3,
+      "Title": "Residencia: Freguesia",
+      "Type": "dropdown",
+      "Answers": [
         {
-          "title": "Aveiro",
-          "jump": 0
+          "Title": "Aveiro",
+          "Jump": 0
         },
         {
-          "title": "Braga",
-          "jump": 0
+          "Title": "Braga",
+          "Jump": 0
         },
         {
-          "title": "Bragança",
-          "jump": 0
+          "Title": "Bragança",
+          "Jump": 0
         },
         {
-          "title": "Castelo Branco",
-          "jump": 0
+          "Title": "Castelo Branco",
+          "Jump": 0
         },
         {
-          "title": "Coimbra",
-          "jump": 0
+          "Title": "Coimbra",
+          "Jump": 0
         },
         {
-          "title": "Évora",
-          "jump": 0
+          "Title": "Évora",
+          "Jump": 0
         },
         {
-          "title": "Faro",
-          "jump": 0
+          "Title": "Faro",
+          "Jump": 0
         },
         {
-          "title": "Guarda",
-          "jump": 0
+          "Title": "Guarda",
+          "Jump": 0
         },
         {
-          "title": "Leiria",
-          "jump": 0
+          "Title": "Leiria",
+          "Jump": 0
         },
         {
-          "title": "Lisboa",
-          "jump": 0
+          "Title": "Lisboa",
+          "Jump": 0
         },
         {
-          "title": "Portalegre",
-          "jump": 0
+          "Title": "Portalegre",
+          "Jump": 0
         },
         {
-          "title": "Porto",
-          "jump": 0
+          "Title": "Porto",
+          "Jump": 0
         },
         {
-          "title": "Santarém",
-          "jump": 0
+          "Title": "Santarém",
+          "Jump": 0
         },
         {
-          "title": "Setúbal",
-          "jump": 0
+          "Title": "Setúbal",
+          "Jump": 0
         },
         {
-          "title": "Viana do Castelo",
-          "jump": 0
+          "Title": "Viana do Castelo",
+          "Jump": 0
         },
         {
-          "title": "Vila Real",
-          "jump": 0
+          "Title": "Vila Real",
+          "Jump": 0
         },
         {
-          "title": "Viseu",
-          "jump": 0
+          "Title": "Viseu",
+          "Jump": 0
         },
         {
-          "title": "Beja",
-          "jump": 0
+          "Title": "Beja",
+          "Jump": 0
         }
       ]
     },
     {
-      "id": 4,
-      "title": "Qual a sua atividade profissional?",
-      "type": "oneof",
-      "answers": [
+      "Id": 4,
+      "Title": "Qual a sua atividade profissional?",
+      "Type": "oneof",
+      "Answers": [
         {
-          "title": "Desempregado",
-          "jump": 6
+          "Title": "Desempregado",
+          "Jump": 6
         },
         {
-          "title": "Estudante",
-          "jump": -1
+          "Title": "Estudante",
+          "Jump": -1
         },
         {
-          "title": "Trabalhador ativo",
-          "jump": 0
+          "Title": "Trabalhador ativo",
+          "Jump": 0
         }
       ]
     },
     {
-      "id": 7,
-      "title": "Qual(quais) o(s) seu(s) meio(s) de deslocação?",
-      "type": "atleast",
-      "answers": [
+      "Id": 7,
+      "Title": "Qual(quais) o(s) seu(s) meio(s) de deslocação?",
+      "Type": "atleast",
+      "Answers": [
         {
-          "title": "Bicicleta",
-          "jump": 0
+          "Title": "Bicicleta",
+          "Jump": 0
         },
         {
-          "title": "Automóvel/mota",
-          "jump": 0
+          "Title": "Automóvel/mota",
+          "Jump": 0
         },
         {
-          "title": "Não responde",
-          "jump": 0
+          "Title": "Não responde",
+          "Jump": 0
         },
         {
-          "title": "A pé",
-          "jump": 0
+          "Title": "A pé",
+          "Jump": 0
         }
       ]
     },
     {
-      "id": 5,
-      "title": "Qual foi o motivo desta deslocação?",
-      "type": "oneof",
-      "answers": [
+      "Id": 5,
+      "Title": "Qual foi o motivo desta deslocação?",
+      "Type": "oneof",
+      "Answers": [
         {
-          "title": "PARA A ESCOLA",
-          "jump": 0
+          "Title": "PARA A ESCOLA",
+          "Jump": 0
         },
         {
-          "title": "COMPRAS",
-          "jump": 0
+          "Title": "COMPRAS",
+          "Jump": 0
         },
         {
-          "title": "OUTRA",
-          "jump": 0
+          "Title": "OUTRA",
+          "Jump": 0
         },
         {
-          "title": "PARA O TRABALHO",
-          "jump": 0
+          "Title": "PARA O TRABALHO",
+          "Jump": 0
         }
       ]
     },
     {
-      "id": 6,
-      "title": "Quantas pessoas há no seu agregado?",
-      "type": "fillint",
-      "answers": [
+      "Id": 6,
+      "Title": "Quantas pessoas há no seu agregado?",
+      "Type": "fillint",
+      "Answers": [
         {
-          "title": "Inserir número",
-          "jump": 0
+          "Title": "Inserir número",
+          "Jump": 0
         }
       ]
     }
